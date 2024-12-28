@@ -21,13 +21,13 @@ releases:
   - name: metallb
     chart: metallb/metallb
     namespace: metallb-system
-    version: 0.14.5
+    version: 0.14.9
 
   # pihole
   - name: pihole
     namespace: pihole-system
     chart: mojo2600/pihole
-    version: 2.18.0
+    version: 2.27.0
     values:
       - ./values/pihole.values.yaml
 
